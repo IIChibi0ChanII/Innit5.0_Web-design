@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products | Cyborg Upgrades</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a> | <a href="aboutUs.html">About Us</a> |
+      <a href="product.html">Products</a>
+    </nav>
+
+    <header class="hero">
+      <h1 class="audiowide-regular">Available Upgrades</h1>
+      <p>Choose your evolution. No flesh, no limits.</p>
+    </header>
+
+    <section class="product-grid-page">
+      <div class="product-card" onclick="clickPopup()">
+        <img src="images/hand.png" alt="Cyber Arm 2.0" />
+        <h3>Cyber Arm 2.0</h3>
+        <p class="price">$245,499</p>
+      </div>
+
+      <div class="product-card" onclick="clickPopup()">
+        <img src="images/eye.png" alt="Optic Core X" />
+        <h3>Optic Core X</h3>
+        <p class="price">$90,000</p>
+      </div>
+
+      <div class="product-card" onclick="clickPopup()">
+        <img src="images/brain.jpg" alt="NeuroLink Adapter" />
+        <h3>NeuroLink Adapter</h3>
+        <p class="price">$757,099</p>
+      </div>
+      <div class="product-card" onclick="clickPopup()">
+        <img src="images/leggings.png" alt="Vexstrider AX" />
+        <h3>Vexstrider AX</h3>
+        <p class="price">$576,700</p>
+      </div>
+
+      <div class="product-card" onclick="clickPopup()">
+        <img src="images/back.png" alt="Titanium Spine" />
+        <h3>Titanium Spine</h3>
+        <p class="price">$979,999</p>
+      </div>
+
+      <div class="product-card" onclick="clickPopup()">
+        <img src="images/heart.png" alt="Hexacore Pulse Engine" />
+        <h3>Hexacore Pulse Engine</h3>
+        <p class="price">$2,379,999</p>
+      </div>
+
+      <div class="product-card" onclick="clickPopup()">
+        <img src="images/full-body-suit.png" alt="A.R.M. Unit – Mk.V" />
+        <h3>A.R.M. Unit – Mk.V</h3>
+        <p class="price">$7,634,000</p>
+      </div>
+      <div class="product-card" onclick="clickPopup()">
+        <img src="images/gun.png" alt="Ghostline Rail Injector" />
+        <h3>Ghostline Rail Injector</h3>
+        <p class="price">$762,060</p>
+      </div>
+
+      <div class="product-card coming-soon">
+        <h3>Coming Soon</h3>
+        <p class="price">--</p>
+      </div>
+    </section>
+    <div id="screen-flash"></div>
+
+    <footer>
+      <p>&copy; 2120 korosou-chikara Industry. All rights stolen.</p>
+    </footer>
+    <audio id="static-sfx">
+      <source src="static.mp3" type="audio/mpeg" />
+    </audio>
+    <script src="script.js"></script>
+  </body>
+</html>
